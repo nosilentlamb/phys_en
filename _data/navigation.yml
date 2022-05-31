@@ -1,7 +1,10 @@
 # main links links
 main:
-  - title: "Publications"
-    url: /publications/
+  - title: "Research"
+    url: /research/
+
+#   - title: "Publications"
+#     url: /publications/
 
   - title: "Talks"
     url: /talks/    
@@ -9,14 +12,20 @@ main:
   - title: "Teaching"
     url: /teaching/    
     
-  - title: "Portfolio"
-    url: /portfolio/
+  - title: "Members"
+    url: /stud_members/
         
-  - title: "Blog Posts"
-    url: /year-archive/
-    
   - title: "CV"
     url: /cv/
+ 
+  - title: "Softwares"
+    url: /softwares/
     
-  - title: "Guide"
-    url: /markdown/
+  - title: "Jobs"
+    url: /jobs/
+
+  - title: "中文"
+    url: https://jingshugroup.github.io/phys_cn/
+    
+#  - title: "news"
+#    url: /news/

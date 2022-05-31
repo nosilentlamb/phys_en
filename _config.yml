@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Your Name / Site Title"
+title                    : "Jing Shu's research group"
 title_separator          : "-"
-name                     : &name "Your Name"
+name                     : &name "Jing Shu"
 description              : &description "personal description"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+url                      :  https://jingshugroup.github.io #https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : "phys_en" # the subpath of your site, e.g. "/blog"
+repository               : " https://jingshugroup.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -178,15 +178,51 @@ collections:
   teaching:
     output: true
     permalink: /:collection/:path/
+  research:
+    output: true
+    permalink: /:collection/:path/  
   publications:
     output: true
     permalink: /:collection/:path/
-  portfolio:
+  research_reports:
+    output: true
+    permalink: /:collection/:path/
+  stud_members:
     output: true
     permalink: /:collection/:path/
   talks:
     output: true
     permalink: /:collection/:path/
+  people_postdoc:
+    output: true
+    permalink: /:collection/:path/
+  people_grad_students:
+    output: true
+    permalink: /:collection/:path/
+  news:
+    output: true
+    permalink: /:collection/:path/
+  prerequisite_courses:
+    output: true
+    permalink: /:collection/:path/
+  softwares:
+    output: true
+    permalink: /:collection/:path/
+  jobs:
+    output: true
+    permalink: /:collection/:path/
+  cv:
+    output: true
+    permalink: /:collection/:path/
+  expertises:
+    output: true
+    permalink: /:collection/:path/
+  awards:
+    output: true
+    permalink: /:collection/:path/ 
+  experiences:
+    output: true
+    permalink: /:collection/:path/ 
 
 
 # Defaults
@@ -218,6 +254,24 @@ defaults:
       author_profile: true
       share: true
       comments: true
+# _news
+  - scope:
+      path: ""
+      type: news
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+ # _research
+  - scope:
+      path: ""
+      type: research
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
   # _publications
   - scope:
       path: ""
@@ -227,10 +281,19 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _portfolio
+  # _publications  
   - scope:
       path: ""
-      type: portfolio
+      type: research_reports
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _members
+  - scope:
+      path: ""
+      type: stud_members
     values:
       layout: single
       author_profile: true
@@ -244,7 +307,78 @@ defaults:
       layout: talk
       author_profile: true
       share: true
-
+    # _people
+  - scope:
+      path: ""
+      type: people_postdoc
+    values:
+      layout: members
+      author_profile: true
+      share: true
+    # _people_grad_students
+  - scope:
+      path: ""
+      type: people_grad_students
+    values:
+      layout: members
+      author_profile: true
+      share: true
+  # _prerequisite_courses
+  - scope:
+      path: ""
+      type: prerequisite_courses
+    values:
+      layout: single  
+      author_profile: true
+      share: true
+  # _softwares
+  - scope:
+      path: ""
+      type: softwares 
+    values:
+      layout: softwares  
+      author_profile: true
+      share: true
+  # _jobs
+  - scope:
+      path: ""
+      type: jobs 
+    values:
+      layout: jobs  
+      author_profile: true
+      share: true
+  # _cv
+  - scope:
+      path: ""
+      type: cv 
+    values:
+      layout: cv  
+      author_profile: true
+      share: true
+    # _expertises
+  - scope:
+      path: ""
+      type: expertises 
+    values:
+      layout:   
+      author_profile: true
+      share: true
+  # _awards
+  - scope:
+      path: ""
+      type: awards 
+    values:
+      layout:   
+      author_profile: true
+      share: true
+ # _experiences
+  - scope:
+      path: ""
+      type: experiences 
+    values:
+      layout:   
+      author_profile: true
+      share: true  
 # Sass/SCSS
 sass:
   sass_dir: _sass
