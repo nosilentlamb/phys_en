@@ -4,7 +4,7 @@ collection: people
 excerpt: 
 date: 2021-01-01
 talkurl: ''
-image: assets/images/BoWang1.jpg
+image: assets/images/Bo Wang1.jpg
 pers_name: 'Bo Wang'
 grad_bs: 'Southeast University'
 enro_year: '2021' 

@@ -4,7 +4,7 @@ collection: people
 excerpt: 
 date: 2021-01-01
 talkurl: ''
-image: assets/images/BingSun1.jpg
+image: assets/images/Bing Sun1.jpg
 pers_name: 'Bing Sun'
 grad_bs: 'Shaoxing University'
 grad_phd: 'Beijing Normal University'

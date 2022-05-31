@@ -4,7 +4,7 @@ collection: people
 excerpt: 
 date: 2020-01-01
 talkurl: ''
-image: assets/images/YutingYang1.jpg
+image: assets/images/Yuting Yang1.jpg
 pers_name: 'Yuting Yang'
 grad_bs: 'Nanjing University'
 enro_year: '2020' 

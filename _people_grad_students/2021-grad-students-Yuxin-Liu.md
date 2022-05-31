@@ -4,7 +4,7 @@ collection: people
 excerpt: 
 date: 2021-01-01
 talkurl: ''
-image: assets/images/YuxinLiu.jpg
+image: assets/images/Yuxin Liu.jpg
 pers_name: 'Yuxin Liu'
 grad_bs: 'Tsinghua University'
 enro_year: '2021' 
