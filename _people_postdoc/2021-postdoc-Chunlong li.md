@@ -4,7 +4,7 @@ collection: people
 excerpt: 
 date: 2021-01-01
 talkurl: ''
-image: assets/images/Chunlong Li.jpeg
+image: assets/images/ChunlongLi.jpeg
 pers_name: 'Chunlong li'
 grad_bs: 'Hunan Normal University'
 grad_phd: 'USTC, China'

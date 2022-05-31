@@ -4,7 +4,7 @@ collection: people
 excerpt: 
 date: 2021-01-01
 talkurl: ''
-image: assets/images/Huayang Song.jpg
+image: assets/images/HuayangSong.jpg
 pers_name: 'Huayang Song'
 grad_bs: 'Fudan University, China'
 grad_phd: 'University of Arizona, USA'

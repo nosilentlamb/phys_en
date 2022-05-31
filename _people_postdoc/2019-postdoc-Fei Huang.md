@@ -4,7 +4,7 @@ collection: people
 excerpt: 
 date: 2019-01-01
 talkurl: ''
-image: assets/images/Fei Huang.jpeg
+image: assets/images/FeiHuang.jpeg
 pers_name: 'FeiHuang'
 grad_bs: 'Nanchang University'
 grad_phd: 'University of Arizona, USA'
