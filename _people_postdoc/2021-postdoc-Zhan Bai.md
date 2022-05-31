@@ -4,7 +4,7 @@ collection: people
 excerpt: 
 date: 2021-01-01
 talkurl: ''
-image: assets/images/Zhan Bai1.jpg
+image: assets/images/ZhanBai1.jpg
 pers_name: 'Zhan Bai'
 grad_bs: 'Peking University'
 grad_phd: 'Peking University'
