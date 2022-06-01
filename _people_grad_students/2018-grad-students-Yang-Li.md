@@ -4,7 +4,7 @@ collection: people
 excerpt: 
 date: 2018-01-01
 talkurl: ''
-image: assets/images/Yangli.jpg
+image: assets/images/yangli.jpg
 pers_name: 'Yang Li'
 grad_bs: 'Chongqing University'
 enro_year: '2018' 
